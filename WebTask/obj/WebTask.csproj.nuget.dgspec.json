@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/arsenijsemenov/Programming/Azure/Meeting_3/WebTask/WebTask.csproj": {}
+  },
+  "projects": {
+    "/Users/arsenijsemenov/Programming/Azure/Meeting_3/WebTask/WebTask.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/arsenijsemenov/Programming/Azure/Meeting_3/WebTask/WebTask.csproj",
+        "projectName": "WebTask",
+        "projectPath": "/Users/arsenijsemenov/Programming/Azure/Meeting_3/WebTask/WebTask.csproj",
+        "packagesPath": "/Users/arsenijsemenov/.nuget/packages/",
+        "outputPath": "/Users/arsenijsemenov/Programming/Azure/Meeting_3/WebTask/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/arsenijsemenov/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Azure.WebJobs.Extensions": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.Azure.WebJobs.Extensions.Storage": {
+              "target": "Package",
+              "version": "[4.0.5, )"
+            },
+            "Microsoft.Azure.WebJobs.Logging.ApplicationInsights": {
+              "target": "Package",
+              "version": "[3.0.30, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
